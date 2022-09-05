@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    }
+    
+    .container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient()url(./images/bookglobe.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    }
+    
+    .logo {
+      color: #FecB01;
+      font-size: 50px;
+      margin-left: 20px;
+      display: flex;
+      cursor: pointer;
+    }
+    
+    .logo span {
+     color:#A7D0EC;
+    }
+    
+    .menu{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    }
+    
+    nav{
+    flex: 1 ;
+    text-align: right;
+    }
+    
+    nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-left: 60px;
+    }
+    
+    nav ul li a{
+    text-decoration: none;  
+    color: #A7D0EC;
+    font-size: 20px;
+    }
+    
+    .row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    }
+    
+    .col{
+    flex-basis: 50%;
+    }
+    
+    h1{
+    color:#9587F6;
+    font-size: 50px;
+    }
+    
+    h1 a{
+    text-decoration: none;
+    color: #FecB01;
+    }
+    
+    p{
+    font-size: 11px;
+    line-height: 22px;
+    }
+    
+    button{
+    width: 220px;
+    color:#000;
+    padding: 12px;
+    background: #FecB01;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    }
+    
+    button a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    }
+    
+    .card{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(10deg);
+    transition: transform 0.5s;
+    }
+    
+    .card1{
+    background-image: url(./images/book\ 1.png);
+    }
+    .card2{
+    background-image: url(./images/book\ 40.png);
+    }
+    .card3{
+    background-image: url(./images/book\ 42.png);
+    }
+    .card4{
+    background-image: url(./images/book\ 30.png);
+    }
+    
+    .card:hover{
+    transform: translateY(-10PX);   
+    }
