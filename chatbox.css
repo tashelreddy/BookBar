@@ -250,7 +250,15 @@
     }
     
     
-    @media only screen and (max-width: 480px){
+   @media only screen and (max-width: 480px){
+    nav ul li {
+    font-size: 29px;       
+    }
+
+    .sub-menu-wrap{
+        display: none;
+    }
+    
     .container{
     width: 100%;
     height: 100vh;
@@ -274,27 +282,27 @@
     }
     
     .col-2{
-    flex-basis: 20%;
+    flex-basis: 25%;
     background: #A7D0EC;
     }
     
     .msg-row{
     display: flex; 
     align-items: center; 
-    margin: 1px;
+    margin: 6px;
     }
     
     .msg-text{
     background: rgba(255,255,255,0.1);
     padding: 10px 20px;
     border-radius: 8px;
-    flex-basis: 60%;
+    flex-basis: 95%;
     font-weight: 200;
     }
     
     .msg-text h2{
     font-weight: 100;
-    font-size: 10px;
+    font-size: 11px;
     margin-bottom: 5px;
     }
     
@@ -328,7 +336,7 @@
     .col-2 h3 a{
     text-align: center;
     padding-bottom: 5px;
-    margin-left: 20px;
+    margin-left: 2px;
     font-weight: 500;
     font-size: 20px;
     color: #9587F6;
@@ -337,15 +345,17 @@
     
     .col-2 ul{
     list-style: none;
-    padding: 30px;
+    padding: 0;
     }
     
     .col-2 ul li{
     padding: 5px 0;
     }
+
     a{
     text-decoration: none;
     }
+
     .col-2 ul li::before{
     content: '';
     width:5px;
@@ -375,4 +385,5 @@
     }
     
     /*end of media query*/
+    
     
